@@ -104,7 +104,26 @@ meter {
   all: revert;
 }
 
+header {
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-image: url(/assets/cropped-DSC_0102-HDR.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 20rem;
+  padding: 1rem;
+}
+
 @media (min-width: 900px) {
+  header {
+    min-height: 30rem;
+  }
+
   main {
     max-width: 90ch;
     margin: 0 auto;
